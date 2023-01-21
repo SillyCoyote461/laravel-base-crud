@@ -12,9 +12,6 @@
           <li class="nav-item">
             <a class="nav-link" href="{{route('comics.index')}}">Comics</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
         </ul>
       </div>
     </div>
