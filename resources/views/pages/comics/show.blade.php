@@ -2,6 +2,11 @@
 @section('page-title', ' DC comics - show')
 
 @section('main')
+@if ( session('modified') )
+<div class="alert alert-success my-3">
+    {{ session('modified') }}
+</div>
+@endif
 <div class="card my-5 mx-auto" style="max-width: 70%;">
     <div class="row g-0">
       <div class="col-md-4">
@@ -21,5 +26,5 @@
     </div>
   </div>
 
- 
+
 @endsection
